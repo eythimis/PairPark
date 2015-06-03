@@ -1,0 +1,16 @@
+﻿1. Get token
+
+Headers
+~~~~~~~~
+Content-Type: application/x-www-form-urlencoded
+
+Body
+~~~~
+grant_type=password&username=" + loginData.userName + "&password=" + loginData.password
+
+
+2. Send token each time
+
+Headers
+~~~~~~~~
+Authorization:Bearer <token>
